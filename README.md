@@ -46,12 +46,14 @@ To create a new variation:
 ## 📦 Getting Started
 
 1. Clone the repo
-2. Compile with:
+2. Make sure you have **Java 21** or higher installed on your system
+3. Compile with:
    ```bash
-   javac *.java
-3. Run with:
-   ```badh
-   java Main
+   javac -d out src/UnoGameEngine/*.java
+4. Run with:
+   ```bash
+   java -cp out UnoGameEngine.GameDriver
+
 
  ## 📄 License
 
